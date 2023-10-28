@@ -49,7 +49,7 @@ process.env.MONGODB_URI || "mongodb+srv://yd999:OCh4Pn0QcX71Zut9@cluster000.nrq6
 mongoose.connect(
 mongoUri,
 {
-  useUnifiedTopology: true
+  useNewUrlParser: true
 }
 );
 
