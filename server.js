@@ -45,11 +45,11 @@ app.prepare()
 
   // Mongoose Connection
 const mongoUri =
-process.env.MONGODB_URI || "mongodb://localhost:27017/toshi";
+process.env.MONGODB_URI || "mongodb+srv://yd999:OCh4Pn0QcX71Zut9@cluster000.nrq63j0.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(
 mongoUri,
 {
-  useNewUrlParser: true
+  useUnifiedTopology: true
 }
 );
 
