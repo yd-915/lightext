@@ -22,7 +22,7 @@ class Request extends React.Component {
     <BaseLayout {...this.props.auth}>
     <BasePage>
     <NavItem>
-      <NavLink href="https://twilio-toshi.herokuapp.com/users/new">Login/SignUp</NavLink>
+      <NavLink href="https://lightext-production.up.railway.app/users/new">Login/SignUp</NavLink>
     </NavItem>
     </BasePage>
     </BaseLayout>
