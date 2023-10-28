@@ -37,7 +37,7 @@
     "morgan": "^1.9.1",
     "next": "^7.0.2",
     "next-routes": "^1.4.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^8.0.0",
     "parcel-bundler": "^1.10.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
