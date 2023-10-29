@@ -1,4 +1,4 @@
-import auth0 from 'auth0-js/package.json'
+import auth0 from 'auth0-js'
 //making cookies
 import Cookies from 'js-cookie';
 import jwt from 'jsonwebtoken';
