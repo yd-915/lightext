@@ -1,4 +1,4 @@
-import auth0 from 'auth0-js';
+import auth0 from 'auth0-js/package.json'
 //making cookies
 import Cookies from 'js-cookie';
 import jwt from 'jsonwebtoken';
@@ -9,8 +9,8 @@ class Auth0 {
 
   constructor(){
     this.auth0 = new auth0.WebAuth({
-      domain: 'toshi-text.auth0.com',
-      clientID: 'z5UssdBfYc7R5OOEPBprycmfXrcKIxD1',
+      domain: 'dev-i6rsixli.us.auth0.com',
+      clientID: 'VHnZ3TrfHG2tBKbWdslI8x2PHlPyzTfX',
       redirectUri: `${process.env.BASE_URL}/callback`,
       responseType: 'token id_token',
       scope: 'openid profile'
