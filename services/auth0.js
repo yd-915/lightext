@@ -60,7 +60,7 @@ class Auth0 {
 
     this.auth0.logout({
       returnTo: '',
-      clientID: 'z5UssdBfYc7R5OOEPBprycmfXrcKIxD1'
+      clientID: 'VHnZ3TrfHG2tBKbWdslI8x2PHlPyzTfX'
     })
   }
 
@@ -70,7 +70,7 @@ class Auth0 {
 
   //need for Auth0
   async getJWKS() {
-    const res = await axios.get('https://toshi-text.auth0.com/.well-known/jwks.json');
+    const res = await axios.get('https://dev-i6rsixli.us.auth0.com/.well-known/jwks.json');
     const jwks = res.data;
     return jwks;
   }
