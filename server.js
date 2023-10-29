@@ -49,7 +49,10 @@ process.env.MONGODB_URI || "mongodb+srv://yd999:OCh4Pn0QcX71Zut9@cluster000.nrq6
 mongoose.connect(
 mongoUri,
 {
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true, // Add this line to use the new Server Discover and Monitoring engine
+  useCreateIndex: true, // If needed for index creation
+  useFindAndModify: false // If needed for findAndModify operations
 }
 );
 
