@@ -11,9 +11,7 @@ class Auth0 {
     this.auth0 = new auth0.WebAuth({
       domain: 'dev-i6rsixli.us.auth0.com',
       clientID: 'VHnZ3TrfHG2tBKbWdslI8x2PHlPyzTfX',
-      redirectUri: `${process.env.BASE_URL}/callback`,
-      responseType: 'token id_token',
-      scope: 'openid profile'
+      redirectUri: `${process.env.BASE_URL}/callback`
     });
     this.login = this.login.bind(this);
     this.handleAuthentication = this.handleAuthentication.bind(this);
