@@ -43,6 +43,5 @@
     "react-dom": "^18.2.0",
     "reactstrap": "^7.1.0",
     "twilio": "^3.28.0",
-    "webpack":"^4.0.0"
   }
 }
