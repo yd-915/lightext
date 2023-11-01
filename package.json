@@ -38,7 +38,7 @@
     "node-sass": "^8.0.0",
     "parcel-bundler": "^1.10.3",
     "react": "^18.2.0",
-    "react-dom": "^16.7.0",
+    "react-dom": "^18.2.0",
     "reactstrap": "^7.1.0",
     "twilio": "^3.28.0"
   }
